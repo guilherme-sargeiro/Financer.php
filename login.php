@@ -12,6 +12,10 @@
     if (count($result)) {
         foreach($result as $row) {
             if ($senha == $row[2] && $email == $row[1]){
+                session_start();
+
+                $_SESSION = $email;
+
                 echo "<script>
                         location.href='painel.php';
                       </script>";
