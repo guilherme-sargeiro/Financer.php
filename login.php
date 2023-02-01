@@ -14,10 +14,10 @@
             if ($senha == $row[2] && $email == $row[1]){
                 session_start();
 
-                $_SESSION = $email;
+                $_SESSION["email"] = $email;
 
                 echo "<script>
-                        location.href='painel.php';
+                        location.href='perfil.php';
                       </script>";
             } else {
                 echo "<script>
