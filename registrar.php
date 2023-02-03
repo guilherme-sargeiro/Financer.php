@@ -21,7 +21,7 @@
             <div class="col-md-6">
                 <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width: 25rem; margin-top: 30%; margin-left: 5%;">
                     <div class="card-body text-center">
-                        <form action=".php" method="POST">
+                        <form action="datap.php" method="POST">
                             <h5 class="card-title">Perfil</h5><br>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
@@ -36,7 +36,7 @@
                                 <input type="number" class="form-control" name="telefone" aria-label="" aria-describedby="basic-addon1">
                             </div>
                             <br>
-                            <input type="submit" class="btn btn-success btn-md btn-block" value="Cadastrar"><br>
+                            <input type="submit" class="btn btn-success btn-md btn-block" value="Salvar"><br>
                             <hr></hr><br>
                             <a href="index.php" class="btn btn-success btn-md btn-block">Voltar</a>
                         </form>
