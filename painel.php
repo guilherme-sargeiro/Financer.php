@@ -10,8 +10,32 @@
 
     <title>Financer</title>
 </head>
-<body class="bg-light">
-    <h1> OLA MUNDO! </h1>
+<body class="bg-success">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-white display-5 font-italic font-weight-bold">Financer</h1>
+        </div>
+        <div class="row">
+            <h1 class="text-white display-5 font-italic font-weight-bold">Painel do Usuário</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-5 bg-light" style="margin-top: 5%;">
+                User
+            </div>
+            <div class="col-1" style="margin-top: 5%;">
+            </div>
+            <div class="col-2 bg-light" style="margin-top: 5%;">
+                Dados 1
+            </div>
+            <div class="col-1" style="margin-top: 5%;">
+            </div>
+            <div class="col-2 bg-light" style="margin-top: 5%;">
+                Dados 2
+            </div>
+        </div>
+    </div>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
