@@ -15,6 +15,7 @@
                 session_start();
 
                 $_SESSION["email"] = $email;
+                $_SESSION["logado"] = 1;
 
                 echo "<script>
                         location.href='perfil.php';
